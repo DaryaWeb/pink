@@ -1,10 +1,258 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-
-  </head>
-  <body>
-
-   
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Pink</title>
+</head>
+<body>
+<header class="page-header">
+  <a href="index.html" class="page-header__logo">
+    <img src="http://placehold.it/75x22" alt="logo" class="page-header__logo-image" width="75" height="22">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="photo.html">Фотографии</a>
+        </li>
+        <li class="site-list__item">
+          <a href="form.html">Конкурс</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main class="page-main">
+  <section class="download">
+    <div class="download__background">
+    </div>
+    <div class="download__info">
+      <h1 class="download__title visually-hidden">Взгляните на жизнь иначе!</h1>
+      <button class="button download__button" type="button">Скачать приложение</button>
+      <ul class="download__list-image">
+        <li class="download__list-image__item">
+          <a href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore"
+             class="download__list-image__link">
+            <img src="http://placehold.it/47x56" alt="ios" class="download__list-image__image" width="47" height="56">
+          </a>
+        </li>
+        <li class="download__list-image__item">
+          <a
+            href="https://play.google.com/store?gl=RU&utm_source=emea_Med&utm_medium=hasem&utm_content=Jun0915&utm_campaign=Evergreen&pcampaignid=MKT-DR-emea-ru-all-Med-hasem-py-Evergreen-Jun0915-1-BKWS&gclid=Cj0KCQjwquTbBRCSARIsADzW88yZFw0MDAVO5poLuUWXRakuWyvry4C1YVsiy0m-uCCxem3VySkYU4EaAi71EALw_wcB&gclsrc=aw.ds&dclid=CO6G1Iiy-dwCFQ0YGwod5YgIPA"
+            class="download__list-image__link">
+            <img src="http://placehold.it/43x47" alt="android" class="download__list-image__image" width="43"
+                 height="47">
+          </a>
+        </li>
+        <li class="download__list-image__item">
+          <a href="https://www.microsoft.com/ru-ru/store/appsvnext/windows-phone" class="download__list-image__link">
+            <img src="http://placehold.it/44x41" alt="windows-phone" class="download__list-image__image" width="44"
+                 height="41">
+          </a>
+        </li>
+      </ul>
+      <p class="download__subtitle">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="advantages-header">
+      <h2 class="advantages__title">Устали от серости мегаполиса?</h2>
+      <h2 class="advantages__title">Нам есть, что вам
+        предложить!</h2>
+    </div>
+    <div class="advantages-info">
+      <img src="http://placehold.it/155x277" alt="phone" class="advantages__image advantages__image--right" width="155"
+           height="277">
+      <ul class="advantages__list">
+        <li class="advantages__list__item">
+          <img src="http://placehold.it/155x277" alt="phone" class="advantages__image" width="155" height="277">
+          <h3 class="advantages__title">Поднимает настроение
+          </h3>
+          <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
+            несколько кликов!</p>
+        </li>
+        <li class="advantages__list__item">
+          <img src="http://placehold.it/155x277" alt="phone" class="advantages__image" width="155" height="277">
+          <h3 class="advantages__title">Меняет мир вокруг
+          </h3>
+          <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+            усилить эффект</p>
+        </li>
+        <li class="advantages__list__item">
+          <img src="http://placehold.it/155x277" alt="phone" class="advantages__image" width="155" height="277">
+          <h3 class="advantages__title">Заводит новых друзей
+          </h3>
+          <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите
+            новых</p>
+        </li>
+      </ul>
+      <img src="http://placehold.it/155x277" alt="phone" class="advantages__image advantages__image--bottom" width="155"
+           height="277">
+    </div>
+  </section>
+  <section class="survey visually-hidden">
+    <img src="http://placehold.it/300x345" alt="time" class="survey__image" width="300" height="345">
+    <h2 class="survey__title">Эффект на 24 часа!</h2>
+    <p class="survey__description">Британские ученые провели исследования и доказали,
+      что положительный эффект от использования приложения длится целые сутки!</p>
+    <a href="" class="survey__link">Узнать больше об исследовании</a>
+  </section>
+  <section class="reviews">
+    <div class="reviews__wrapper slider">
+      <div class="reviews__list  slider__list">
+        <blockquote class="reviews__item  slider__item">
+          <p class="reviews__picture visually-hidden">
+            <img class="reviews__image" src="http://placehold.it/300x345" width="79" height="63" alt="quotes">
+          </p>
+          <cite class="reviews__author reviews__author--top">Николай Петров</cite>
+          <cite class="reviews__author-profession">25 лет, водитель трамвая</cite>
+          <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+            привычные серые вещи! А еще я познакомился со своей будущей женой в
+            комментариях к выложенной фотографии!»</p>
+          <cite class="reviews__author reviews__author--bottom">Николай Петров</cite>
+        </blockquote>
+        <blockquote class="reviews__item  slider__item">
+          <p class="reviews__picture visually-hidden">
+            <img class="reviews__image" src="http://placehold.it/300x345" width="79" height="63" alt="quotes">
+          </p>
+          <cite class="reviews__author reviews__author--top">Николай Петров</cite>
+          <cite class="reviews__author-profession">25 лет, водитель трамвая</cite>
+          <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+            привычные серые вещи! А еще я познакомился со своей будущей женой в
+            комментариях к выложенной фотографии!»</p>
+          <cite class="reviews__author reviews__author--bottom">Николай Петров</cite>
+        </blockquote>
+        <blockquote class="reviews__item  slider__item">
+          <p class="reviews__picture visually-hidden">
+            <img class="reviews__image" src="http://placehold.it/300x345" width="79" height="63" alt="quotes">
+          </p>
+          <cite class="reviews__author reviews__author--top">Николай Петров</cite>
+          <cite class="reviews__author-profession">25 лет, водитель трамвая</cite>
+          <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+            привычные серые вещи! А еще я познакомился со своей будущей женой в
+            комментариях к выложенной фотографии!»</p>
+          <cite class="reviews__author reviews__author--bottom">Николай Петров</cite>
+        </blockquote>
+        <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+        <button class="reviews__next" type="button">Следующий отзыв</button>
+      </div>
+      <p class="reviews__toggles slider__toggles">
+        <button class="slider__toggle" type="button">1</button>
+        <button class="slider__toggle" type="button">2</button>
+        <button class="slider__toggle" type="button">3</button>
+      </p>
+    </div>
+  </section>
+  <section class="price">
+    <div class="price__wrapper slider">
+      <div class="price__table slider__list">
+        <div class="price__tr price__tr--not-visible">
+          <div class="price__td price__td--not-frame price__td--choose"></div>
+          <div class="price__td price__td--choose">Розовый фильтр</div>
+          <div class="price__td price__td--choose">Смайлики</div>
+          <div class="price__td price__td--choose">Комментарии</div>
+        </div>
+        <div class="price__tr slider__item">
+          <div class="price__td">
+            <h3 class="price__name">База</h3>
+            <p class="price__cost">1,99 USD</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Розовый фильтр</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Смайлики</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Комментарии</p>
+          </div>
+        </div>
+        <div class="price__tr slider__item">
+          <div class="price__td">
+            <div class="price__hit"></div>
+            <h3 class="price__name">Стандарт</h3>
+            <p class="price__cost">3,99 USD</p></div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Розовый фильтр</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Смайлики</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Комментарии</p>
+          </div>
+        </div>
+        <div class="price__tr slider__item">
+          <div class="price__td"><h3 class="price__name">Анлим</h3>
+            <p class="price__cost">9,99 USD</p></div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Розовый фильтр</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Смайлики</p>
+          </div>
+          <div class="price__td price__td--image">
+            <p class="price__td--text">Комментарии</p>
+          </div>
+        </div>
+      </div>
+      <p class="price__toggles slider__toggles">
+        <button class="slider__toggle" type="button">1</button>
+        <button class="slider__toggle" type="button">2</button>
+        <button class="slider__toggle" type="button">3</button>
+      </p>
+    </div>
+  </section>
+  <section class="contacts">
+    <header class="contacts__header">
+      <h2 class="contacts__title">Остались вопросы?</h2>
+      <h2 class="contacts__title">Свяжитесь с нами!</h2>
+    </header>
+    <div class="contacts__main">
+      <div class="contacts__info">
+        <h2 class="contacts__description">Звоните:</h2>
+        <a href="" class="contacts__text">+7 (812) 333-77-44</a>
+      </div>
+      <div class="contacts__info">
+        <h2 class="contacts__description">Пишите:</h2>
+        <a href="" class="contacts__text">mail@mail.com</a>
+      </div>
+      <div class="contacts__info">
+        <h2 class="contacts__description">Приезжайте в гости:</h2>
+        <a href="" class="contacts__text">ул. Пушкина, 19/8</a>
+      </div>
+    </div>
+    <div class="contacts__map">
+    </div>
+  </section>
+</main>
+<footer class="page-footer">
+  <div class="page-footer__wrapper">
+    <div class="page-footer__logo">
+      <img src="http://placehold.it/75x22" alt="logo" class="page-header__logo-image" width="75" height="22">
+    </div>
+    <div class="page-footer__social social">
+ <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="https://www.facebook.com/">Мы в Фейсбуке</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--instagram" href="https://www.instagram.com/">Мы в Инстаграме</a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <b class="copyright__text">Разработано:</b>
+      <a class="button copyright__link" href="#">Darya Khoniak</a>
+    </div>
+  </div>
+</footer>
+</body>
 </html>
