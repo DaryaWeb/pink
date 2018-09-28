@@ -1,0 +1,30 @@
+.survey{
+  background-color: $light-gray-background;
+}
+.survey__image{
+  background: url("../../img/index/timer.svg.png") no-repeat;
+  width: 100%;
+  height: 460px;
+  background-size: 15%;
+}
+.survey__image--time{
+  border: 15px solid $pink;
+  color: $pink;
+  font-size: 120px;
+  line-height: 186.84px;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  border-radius: 100%;
+}
+.survey__title{
+  @include block-title($open-sans-bold, 600, 30px, 30px);
+}
+.survey__description{
+  @include block-title($open-sans, 400, 18px, 30px);
+}
+.survey__link{
+  @include block-title($open-sans, 400, 18px, 30px);
+  color: $pink;
+  text-decoration: underline;
+}

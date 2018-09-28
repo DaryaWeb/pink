@@ -1,0 +1,17 @@
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+@mixin block-title($font-family, $font-weight, $font-size, $line-height) {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+}
+@mixin height-width($height, $width) {
+  height: $height;
+  width: $width;
+}
+@mixin opacity-text-color($text-color, $opacity: 0.3) {
+  color: rgba($text-color, $opacity);
+}

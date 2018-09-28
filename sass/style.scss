@@ -1,2 +1,44 @@
-body { background: green; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.eot");
+  src: url("/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/OpenSans-Regular.woff") format("woff"),
+  url("/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("/fonts/OpenSans-Light.eot");
+  src: url("/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/OpenSans-Light.woff") format("woff"),
+  url("/fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@import "variables";
+@import "mixins";
 
+html, body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: $open-sans;
+  height: 100%;
+  width: 100%;
+  color: #f7f4f1;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@import "basic/import";
