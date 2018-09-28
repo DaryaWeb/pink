@@ -1,0 +1,12 @@
+.contacts__title{
+  @include block-title($open-sans-light, 100, 50px, auto);
+  color: $dark-blue-more;
+}
+.contacts__description{
+  @include block-title($open-sans-bold, 600, 18px, auto);
+  color: $dark-blue-more;
+}
+.contacts__text{
+  @include block-title($open-sans-light, 100, 24px, auto);
+  color: $pink;
+}

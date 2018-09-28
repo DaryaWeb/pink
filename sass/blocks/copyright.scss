@@ -1,0 +1,4 @@
+.copyright__text{
+  @include block-title($open-sans, 400, 14px, 18px);
+  color: $dark-blue-more;
+}

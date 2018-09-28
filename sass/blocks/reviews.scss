@@ -1,0 +1,11 @@
+.reviews__author{
+  @include block-title($open-sans-bold, 600, 24px, 30px);
+  font-style: normal;
+}
+.reviews__author-profession{
+  @include block-title($open-sans, 400, 18px, 30px);
+  font-style: normal;
+}
+.reviews__text{
+  @include block-title($open-sans, 400, 18px, 30px);
+}

@@ -1,0 +1,38 @@
+.price{
+  background-color: $light-gray-background;
+}
+.price__table{
+  display: table;
+  border: 1px solid $white;
+  box-sizing: border-box;
+  margin: auto;
+  width: 80%;
+}
+.price__tr{
+  float:left;
+  width: 25%;
+}
+.price__td{
+  height: 60px;
+  width: 100%;
+}
+.price__name{
+  @include block-title($open-sans-bold, 600, 18px, 30px);
+  text-align: center;
+}
+.price__cost{
+  @include block-title($open-sans-light, 100, 24px, 30px);
+  text-align: center;
+  text-transform: uppercase;
+}
+.price__td--choose, .price__td--text{
+  @include block-title($open-sans, 400, 18px, 30px);
+}
+.price__td--image-yes{
+  background: url(../../img/index/yes.svg.png) no-repeat;
+  background-position: right;
+ }
+.price__td--image-no{
+  background: url(../../img/index/no.svg.png) no-repeat;
+  background-position: right;
+}

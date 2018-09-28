@@ -1,0 +1,22 @@
+.advantages__title{
+  @include block-title($open-sans-light, 100, 24px, 24px);
+  color: $dark-blue;
+}
+.advantages-info--iphone{
+  background: url(../../img/index/iphone-copy.png) no-repeat;
+  height: 280px;
+  width: 150px;
+  background-size: 100%;
+}
+.download__hand--pink{
+  width: 10%;
+}
+.advantages-info{
+  background-color: $light-gray-background;
+}
+.advantages-info__title{
+  @include block-title($open-sans-bold, 600, 24px, 18px);
+}
+.advantages__description{
+  @include block-title($open-sans, 400, 14px, 24px);
+}
